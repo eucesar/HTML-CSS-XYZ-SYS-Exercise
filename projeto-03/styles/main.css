@@ -1,0 +1,23 @@
+.imagem-moca{
+    width: 95%;
+    margin: 40px;
+}
+
+.titulos{
+    color: var(--preto);
+    font-size: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    position: absolute;
+    top: 40%;
+    right: 60%
+}
+
+.titulo-grande{
+    color: var(--fundo);
+    font-size: 80px;
+}
+
+.titulo-pequeno{
+    color: var(--cinza);
+    font-size: 35px;
+}
