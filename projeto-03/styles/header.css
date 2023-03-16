@@ -1,0 +1,56 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    color: none;
+    background-color: none;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.cabecalho__logo{
+    padding: 1em 1em 0 10em;
+}
+
+.titulo{
+    color: black;
+    font-size: 40px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    margin-top: 15px;
+}
+
+.titulo-pintado{
+    background-color: black;
+    font-size: 35px;
+    border: black;
+    color: white;
+    font-family: "Arial Black", Gadget, sans-serif;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    align-items: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+    color: var(--fundo)
+    border: 10px solid var(--fundo);
+    box-shadow: -1px -1px 7px var(--fundo),
+                 7px 7px 1px var(--fundo);
+}
+
+.links{
+    display: inline-block;
+    font-weight: 1000;
+    padding-right: 15px;
+    margin-right: 5em; 
+    margin-top: 20px;
+}
